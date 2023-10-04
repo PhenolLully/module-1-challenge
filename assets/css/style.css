@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Styles applied to the parent section elements*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,24 +85,24 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Styles applied to aside elements */
 .benefit{
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Styles applied to h3 elements */
 .benefit-h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Styles applied to img elements */
 .benefit-img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
+/* Styles applied to the section elements within the main parent elements */
+.main-sections {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -110,48 +110,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Styles applied to the img elements within the section parent elements */
+.main-sections img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* Styles applied to the h2 elements within the section parent elements */
+.main-sections h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
